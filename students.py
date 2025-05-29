@@ -65,4 +65,3 @@ class Student:
         conn.commit()
         print("Student deleted successfully.")
         conn.close()
-

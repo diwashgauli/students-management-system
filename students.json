@@ -1,0 +1,20 @@
+[
+    {
+        "ID": 1,
+        "Name": "Diwas Gauli",
+        "Age": 23,
+        "Email": "gaulidiwas@gmail.com"
+    },
+    {
+        "ID": 2,
+        "Name": "Bryan May",
+        "Age": 78,
+        "Email": "bryanmay@example.com"
+    },
+    {
+        "ID": 3,
+        "Name": "Arom Khadka",
+        "Age": 24,
+        "Email": "arom@gmail.com"
+    }
+]

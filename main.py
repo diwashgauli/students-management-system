@@ -1,5 +1,7 @@
 from database import initialize_db
 from students import Student
+from file_handler import export_to_csv, export_to_json
+
 def menu():
     print("\nStudent Management System")
     print("1. Add Student")
@@ -7,7 +9,9 @@ def menu():
     print("3. Search Student")
     print("4. Update Student")
     print("5. Delete Student")
-    print("6. Exit")
+    print("6. Export to CSV")
+    print("7. Export to JSON")
+    print("8. Exit")
 
 def main():
     initialize_db()
@@ -26,6 +30,10 @@ def main():
         elif choice == '5':
             Student.delete_student()
         elif choice == '6':
+            export_to_csv()
+        elif choice == '7':
+            export_to_json()
+        elif choice == '8':
             print("Exiting... Goodbye!")
             break
         else:
